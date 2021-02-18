@@ -57,6 +57,7 @@
                     <xsd:element name="fileName" type="xsd:string"/>
                     <xsd:element name="fileType" type="xsd:string"/>
                     <xsd:element name="filePath" type="xsd:string"/>
+                    <xsd:element name="largeFileGuid" type="xsd:string"/>
                 </xsd:sequence>
             </xsd:complexType>
         </xsd:schema>
