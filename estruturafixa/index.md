@@ -87,7 +87,7 @@ Estrutura para identificação da operação
 
 ## Dados dos ficheiros
 Estrutura para envio de ficheiros
-* O FileGuid mapeia com o campo do formulário ou a dacleração (id de submissão. 
+* O FileGuid mapeia com o campo do formulário ou a declaração (id de submissão. 
 Identificador dos campos é repetido em cada formulário do mesmo tipo identificado o tipo de campo eforms.
 * O largeFileGuid é o identificador a ser usado para obtenção dos documentos através de Large Files. Trata-se de um Identificador único.
 
