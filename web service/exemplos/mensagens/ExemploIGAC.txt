@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-16"?>
+<messageRequest
+ xmlns:xsd="http://ama.gov.pt/services/xsd"
+ xmlns:ns3="http://www.portaldaempresa.pt/">
+  <messageData>
+    <messageEntityId>SIOE:ORG:013250000</messageEntityId>
+    <messageRelatesToEntityId>SIOE:ORG:060210000</messageRelatesToEntityId>
+    <messageDate>2020-07-14T22:39:10.000+01:00</messageDate>
+  </messageData>
+  <requestData>
+    <processNumber>511923</processNumber>
+    <requestNumber>1606/2020</requestNumber>
+    <requestDate>2020-07-14T22:39:10.000+01:00</requestDate>
+    <serviceCode>CES:SRV:000009504</serviceCode>
+    <channel>PointOfCareType.Web</channel>
+    <entityCode>SIOE:ORG:060210000</entityCode>
+    <userCode>26748601</userCode>
+    <userName />
+  </requestData>
+  <operationData>
+    <operationCode>ISCOP001SendForm</operationCode>
+    <operationVersion />
+    <xsd:Form>
+  <Id>2e215b60-292b-426b-aec2-1300b1fdac13</Id>
+  <SubmissionId>9648d0df-769c-45d2-a097-3f25face24b0</SubmissionId>
+  <IsSubmitted>true</IsSubmitted>
+  <Pages>
+    <Page>
+      <Id>6f25089f-d4c4-4089-97a8-04e5284af7b8</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>f671f097-97cd-4ed2-ad14-dc3125637f9b</Id>
+          <Name>e_04_concelho</Name>
+          <Value>1508</Value>
+          <Text>Palmela</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6901caa5-3637-4c72-8c97-f91dd5dfa0eb</Id>
+          <Name>e_04_concelho_nota</Name>
+          <Text>&lt;div class="nota"&gt;A listagem apresenta recintos localizados em todo o território nacional mas só deve indicar recintos que se localizem no concelho selecionado para esta comunicação. &lt;span style="font-weight: bold;"&gt;Não é válida a indicação de recintos noutros concelhos&lt;/span&gt;.&lt;/div&gt;</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>841aa3f2-a276-463a-9d75-607270f26e08</Id>
+          <Name>licencaid</Name>
+          <Value>3179</Value>
+          <Text>3179</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>c702b406-8c6f-433a-adda-9a1cfda073db</Id>
+          <Name>msg ocasional com fins lucrativos</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a5b0594d-db82-40ab-8000-8a0b93e7ef15</Id>
+          <Name>msg_registo</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>4c40df33-22f0-42a2-9b37-b7e96953866b</Id>
+          <Name>prom_error_description</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>388e2821-35c5-4b94-b535-04de4cb7285b</Id>
+          <Name>prom_fic</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>7d880d31-4d56-41c6-bd72-9586e48aef9e</Id>
+          <Name>prom_fins_beneficentes</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>742e7cb6-3799-46c2-a4bb-7e6b2461405b</Id>
+          <Name>prom_p_dico</Name>
+          <Value>1508</Value>
+          <Text>1508</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>bee5aa6b-98af-4cb4-b323-3f470b296e84</Id>
+          <Name>prom_p_error</Name>
+          <Value>0</Value>
+          <Text>0</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>03d5b402-3a1e-405a-b1ea-a689d3cd075c</Id>
+          <Name>prom_p_id</Name>
+          <Value>110605062020</Value>
+          <Text>110605062020</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>56663bed-d8cd-4697-9dfc-fd7b0c8b332f</Id>
+          <Name>prom_p_isento</Name>
+          <Value>0</Value>
+          <Text>0</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>8651e088-ea15-49a5-b6d4-4c2161d15a6a</Id>
+          <Name>prom_p_nif</Name>
+          <Value>513745963</Value>
+          <Text>513745963</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>5aca2d93-a41c-405b-ae14-e9c381b50e58</Id>
+          <Name>prom_p_nome</Name>
+          <Value>JOSE AZEREDO DIAS UNIPESSOAL LDA</Value>
+          <Text>JOSE AZEREDO DIAS UNIPESSOAL LDA</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d17f5a70-09e2-4daa-af38-99ea7136d99d</Id>
+          <Name>prom_p_superior</Name>
+          <Value>1</Value>
+          <Text>1</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d1bf1a8c-e156-4883-a725-0be93b33cb79</Id>
+          <Name>prom_p_tipo</Name>
+          <Value>promotor</Value>
+          <Text>promotor</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0a243e12-67c2-4bfc-b89e-b2268643e965</Id>
+          <Name>prom_r_data_inicio</Name>
+          <Value>15-08-2021</Value>
+          <Text>15-08-2021</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>fe32a5b7-f344-4bf8-8c3b-992a560a2523</Id>
+          <Name>prom_r_nif</Name>
+          <Value>513745963</Value>
+          <Text>513745963</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f27ca3b3-b3f3-47bd-b8ea-76b07322ead4</Id>
+          <Name>prom_rb</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f76da965-32cc-4883-83ca-df69066f59d2</Id>
+          <Name>prom_sem_fins_lucrativos_sn</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>dcc72d2e-a40e-4f64-aa09-369fc520233f</Id>
+          <Name>r_nome</Name>
+          <Value>teste</Value>
+          <Text>teste</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>b7e6aa0c-3f82-4ea4-bae8-cbff38e67dd1</Id>
+          <Name>req_email</Name>
+          <Value>fatima.cavaleiro@ama.pt</Value>
+          <Text>fatima.cavaleiro@ama.pt</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>056cec4e-d731-4b3d-9f1f-40bfec5c2e4e</Id>
+          <Name>req_nome</Name>
+          <Value>teste</Value>
+          <Text>teste</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0d1dcf11-ed80-4acf-904a-fa371c00dc77</Id>
+          <Name>req_telefone</Name>
+          <Value>123456789</Value>
+          <Text>123456789</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>dcab3709-237f-45dc-9265-67cd6fc73de8</Id>
+          <Name>versao</Name>
+          <Value>1.0</Value>
+          <Text>1.0</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>196b06e5-ba1b-47a6-abed-1b39240866c9</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>12c659d3-105a-4f26-8fe8-c6233f07e8c4</Id>
+          <Name>cae_pedido</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>cf60358e-a9ab-4129-98b3-e4d5434ade2a</Id>
+          <Name>declaracao2</Name>
+          <Value>False</Value>
+          <Text>False</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f995dc3a-994b-4ea4-8f93-df5e2e0c4ea7</Id>
+          <Name>declaro1</Name>
+          <Value>True</Value>
+          <Text>True</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6267b7c5-d79d-4257-984d-80a62fd70f75</Id>
+          <Name>entitytype1</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>aa911119-bf02-4e65-a71b-a65b2383d5e7</Id>
+          <Name>entitytype2</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>7b499bcc-410d-4ba8-8f10-8257f621e6b9</Id>
+          <Name>entitytype3</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>1f6b0cbe-0193-44e7-9e16-c2609f49a09e</Id>
+          <Name>entitytype4</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>33797367-3a29-460f-ad72-dc156c008d61</Id>
+          <Name>municipioid</Name>
+          <Value>1508</Value>
+          <Text>1508</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>2ccd7764-bd17-43ac-8eb6-66a96edfe9d2</Id>
+          <Name>proceduretype</Name>
+          <Value>3</Value>
+          <Text>3</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>fe61bdb3-6ae1-48fd-80e1-a9fce3514cb3</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>4b8f0392-3228-427d-ada5-82125338414d</Id>
+          <Name>circo_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a09fdba5-5388-4907-80fc-7f3f2723a737</Id>
+          <Name>cruzamento_artistico_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6469f59b-7aa4-4b21-9fd8-177fd964e2ea</Id>
+          <Name>danca_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>65c70da8-413e-4d5b-88d1-9beeca44324f</Id>
+          <Name>exib_cinem_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ae4768fa-7843-4633-bc21-7df88a4b39d1</Id>
+          <Name>exib_video_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>24d25d23-bd4b-4f10-8f5b-05d211641532</Id>
+          <Name>improviso_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>2d03208c-1825-4079-985f-01819e28ae11</Id>
+          <Name>karaoke_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d9363f78-1d9a-4a44-81ef-789203dd5819</Id>
+          <Name>musica_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ada22b1f-c5e9-4d83-8a44-53370e466f06</Id>
+          <Name>num_espetaculos</Name>
+          <Value>1</Value>
+          <Text>1</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>fd94dbc9-7fd3-4ee0-9956-755206b92049</Id>
+          <Name>opera_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>874e1355-cc46-4195-9e35-2155069fc0e5</Id>
+          <Name>recitas_nota</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>1b805d3b-0262-4500-927f-5c51bf4a1bca</Id>
+          <Name>teatro_nota</Name>
+          <Text>&lt;div class="nota"&gt;O escalão etário é o que consta da comunicação da IGAC em resposta a pedido de classificação previamente apresentado. &lt;br /&gt;
+ Caso se trate de espetáculo de teatro com texto em língua estrangeira, a classificação etária é automática «Para maiores de 16 anos». &lt;br /&gt;
+ Caso pretenda alteração deste escalão etário deverá enviar à IGAC «Pedido de Alteração da Classificação Especial» não sendo possível prosseguir com a mera comunicação. &lt;/div&gt;</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>68d2afba-b08a-4511-9a76-192e07e75c94</Id>
+          <Name>tipo_atividade</Name>
+          <Value>2</Value>
+          <Text>Teatro</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>c91f2ceb-65ec-495b-8862-810896465d5b</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>ef3810d0-1ec5-47c8-a755-7778a4453b20</Id>
+          <Name>classificacao_etaria</Name>
+          <Value>4</Value>
+          <Text>M/12</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>0ee723d9-8e2e-4a24-b15b-61358980736e</Id>
+          <Name>companhia</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a1c0f410-7803-4d03-8fdb-68fa187ad4b4</Id>
+          <Name>coreografo</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>f3735fd5-ff35-41ea-a2f0-ed9dd8f89262</Id>
+          <Name>data_fim</Name>
+          <Value>15-08-2021</Value>
+          <Text>15-08-2021</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>1f590496-9f5a-4270-bbf3-0e0e0366cbfa</Id>
+          <Name>data_inicio</Name>
+          <Value>15-08-2021</Value>
+          <Text>15-08-2021</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>6ec80b39-4735-4b6f-b972-d21b63d790fb</Id>
+          <Name>dias_mes</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>001f96e2-567c-44c1-990b-fe3ece1ec50b</Id>
+          <Name>direitos_autor</Name>
+          <Value>False</Value>
+          <Text>False</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>a697f3a8-16de-403d-b694-04dbb65fa9fd</Id>
+          <Name>elenco</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>d11bf700-3bd5-4934-bba2-868bb8311393</Id>
+          <Name>encenador</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>990268c4-92ac-4f3a-bcea-9f0fc59a48c2</Id>
+          <Name>filme_titulo</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>91f1b9ef-e9be-438a-810c-e87af501fc73</Id>
+          <Name>imagem_pub</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>b6b57ea5-60e8-4e7c-af80-e566450185f4</Id>
+          <Name>imagem_pub_sn</Name>
+          <Value>2</Value>
+          <Text>N&amp;#227;o</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>894ae097-0784-4aef-9a5e-7dbb03874404</Id>
+          <Name>n_sessoes</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>02d5e467-25a4-4f5b-9f05-8aff15c97294</Id>
+          <Name>sinopseen</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>2b3a4528-ef11-40e0-ba0e-85f2ad8c80cb</Id>
+          <Name>sinopsept</Name>
+          <Value>adsfcszs</Value>
+          <Text>adsfcszs</Text>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>aecc2c7f-c79f-4778-9181-c84d0851526e</Id>
+          <Name>titulo</Name>
+          <Value />
+          <Text />
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+    <Page>
+      <Id>07950817-225a-4311-aece-9ca829684a40</Id>
+      <IsValid>true</IsValid>
+      <Fields>
+        <Field>
+          <Id>03433f7d-110a-4aab-863f-17cc91a0322f</Id>
+          <Name>classificacao_etaria_doc</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>9c82e77a-0fab-44fc-b243-1636b13b4473</Id>
+          <Name>copia_doc</Name>
+          <Files>
+            <File>
+              <Name>Declaracao - 2021-07-28T123547.845.pdf</Name>
+              <Path>P:\eforms\data\documents\20210728\f08d63b4-a48b-4e67-aa94-2ae78a7481c6\26d95cf9-840e-4afb-80d6-804558f49678.pdf</Path>
+            </File>
+          </Files>
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>ba0ed39f-c8f0-4999-a2b6-b9c235721429</Id>
+          <Name>deslocacao_doc</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>2fa89d82-be79-473e-b826-22ee8c360b01</Id>
+          <Name>direito_autor_doc</Name>
+          <Files>
+            <File>
+              <Name>Declaracao - 2021-07-28T123547.845.pdf</Name>
+              <Path>P:\eforms\data\documents\20210728\f08d63b4-a48b-4e67-aa94-2ae78a7481c6\f895481e-bbe1-46ae-9753-f4c581fdc3fb.pdf</Path>
+            </File>
+          </Files>
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>01a02ca6-cded-4f4d-965a-b15a50997edc</Id>
+          <Name>direitos_conexos_doc</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>9000a01d-4331-4914-863a-10b9f0843945</Id>
+          <Name>estatutos_doc</Name>
+          <Files />
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+        <Field>
+          <Id>44e19d3d-bff0-4047-b3d3-9d315284c531</Id>
+          <Name>programa_doc</Name>
+          <Files>
+            <File>
+              <Name>Declaracao - 2021-07-28T123547.845.pdf</Name>
+              <Path>P:\eforms\data\documents\20210728\f08d63b4-a48b-4e67-aa94-2ae78a7481c6\d2f2ee59-fff5-4635-b85f-3e41b52cfbef.pdf</Path>
+            </File>
+          </Files>
+          <SubFields />
+          <IsReadOnly>true</IsReadOnly>
+        </Field>
+      </Fields>
+    </Page>
+  </Pages>
+  <MultipleComposedTypes>
+    <MultipleComposedType Id="39649bbd-9d53-4c5f-922a-8157562d0b57" Name="recinto_lista" FieldType="DynamicList" ReadOnly="false">
+      <ComposedTypes>
+        <ComposedType Id="815" Name="IGAC_recinto" FieldType="ComposedType" ReadOnly="false">
+          <SingleValues>
+            <SingleValue Id="951022e9-de01-409b-9eb4-009aafc37470" Name="r_02_localidade_postal" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="bd18d8ec-bae0-45b9-b9b0-120e7edca3fc" Name="r_cp" FieldType="CompositeTextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="d98804cb-75d3-4bb9-b848-27d4766b0d58" Name="r_lado" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="e741bb63-4641-4d09-95ea-63d1323552bc" Name="est_nome_insignia" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="6663e534-3ea7-419f-aa7e-6d1b9d50f004" Name="r_nir" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="6a98a086-a939-4583-bc8b-946641deaa9c" Name="r_07_localidade" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="a2516e3d-ef20-46f5-aab7-c27d5a406ba0" Name="r_nome" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="c75e285b-978d-4578-b360-c99e084876f0" Name="r_andar" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="0a0e36d2-960a-4807-b403-d2d7cf199905" Name="r_lugar" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="8017b839-8183-4e43-a892-d74fe9a1e469" Name="r_morada" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="14431819-aa8e-40f6-8b92-e846d0096756" Name="r_09_designacao_via" FieldType="TextBox" ReadOnly="false" Value="" />
+            <SingleValue Id="eddf4986-23ff-4249-bd34-eb523de546f5" Name="r_porta" FieldType="TextBox" ReadOnly="false" Value="" />
+          </SingleValues>
+          <Enumerables>
+            <Enumerable Id="29a6cc04-2206-4126-a595-5cf1d2e74f3d" Name="recinto_igac_sn" FieldType="RadioButtonList" ReadOnly="false" EnumType="TG_SIMNAO2">
+              <Options>
+                <Option Key="1" Value="Sim" />
+              </Options>
+            </Enumerable>
+            <Enumerable Id="c2a761f2-aa15-4c24-8cdf-628111edcd2f" Name="r_distrito" FieldType="DropDownList" ReadOnly="false" EnumType="TG_DISTRITO_CONTINENTE">
+              <Options>
+                <Option Key="15" Value="Setúbal" />
+              </Options>
+            </Enumerable>
+            <Enumerable Id="58c4417c-6a33-4148-9a57-9d6e661a9aec" Name="r_04_concelho" FieldType="DropDownList" ReadOnly="false" EnumType="TG_CONCELHO">
+              <Options />
+            </Enumerable>
+            <Enumerable Id="3e7d959c-f2b7-4960-8f56-a7fc98520d2d" Name="r_03_distrito" FieldType="DropDownList" ReadOnly="false" EnumType="TG_DISTRITO">
+              <Options>
+                <Option Key="" Value="[Escolha uma opção]" />
+              </Options>
+            </Enumerable>
+            <Enumerable Id="8cd4a0af-ea46-40d5-b219-b4adf625beff" Name="r_dico" FieldType="DropDownList" ReadOnly="false" EnumType="TG_CONCELHO">
+              <Options>
+                <Option Key="1508" Value="Palmela" />
+              </Options>
+            </Enumerable>
+            <Enumerable Id="6949b208-0da4-453e-8e8f-c64be248176e" Name="r_05_freguesia" FieldType="DropDownList" ReadOnly="false" EnumType="TG_FREGUESIA">
+              <Options />
+            </Enumerable>
+            <Enumerable Id="03c90092-a554-474b-b66d-e9672a8faf37" Name="r_08_tipo_de_via" FieldType="DropDownList" ReadOnly="false" EnumType="TG_VIA">
+              <Options>
+                <Option Key="" Value="[Escolha uma opção]" />
+              </Options>
+            </Enumerable>
+          </Enumerables>
+          <Files />
+          <MultipleComposedTypes />
+        </ComposedType>
+      </ComposedTypes>
+    </MultipleComposedType>
+  </MultipleComposedTypes>
+  <Declaration />
+    </xsd:Form>
+  </operationData>
+  <attachContext>
+    <TTL>0</TTL>
+    <LargeFileGuid>9648d0df-769c-45d2-a097-3f25face24b0</LargeFileGuid>
+    <FileGuid>2766cfde-2798-49ff-88e3-6a12ea1e4a7c</FileGuid>
+    <fileName>1594762809388_Declaracao.pdf</fileName>
+    <fileType>pdf</fileType>
+    <filePath>/opt/docs/multicanal/2020/07/14/28330</filePath>
+  </attachContext>
+</messageRequest>
