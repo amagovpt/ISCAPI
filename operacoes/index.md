@@ -432,6 +432,7 @@ Esta operação permite o envio de documentos de um processo
 Esta operação permite o envio de notificações de um processo
 
 |Elemento| Tipo | Cardinalidade|
+
 |------------ | ------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
@@ -441,7 +442,6 @@ Esta operação permite o envio de notificações de um processo
 |documentDescription|string|1....1|
 |documentCreateDate|string|1....1|
 |documentSentDate|string|1....1|
-
 
 ```markdown
 <operationData>
