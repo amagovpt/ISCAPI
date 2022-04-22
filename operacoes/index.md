@@ -10,7 +10,9 @@ As operações apresentadas representam as necessidades atuais e serão atualiza
 O formulário submetido na plataforma de serviços da AMA é enviado através desta operação.
 
 |Elemento| Tipo | Cardinalidade|
+
 |------------ | ------------|
+
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |Form|Formulário eForms|1....1|
