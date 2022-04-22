@@ -28,7 +28,7 @@ O formulário submetido na plataforma de serviços da AMA é enviado através de
 A entidade que recebe o formulário deve utilizar esta operação para comunicar o nº de processo no seu sistema.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |requestNumber|string|1....1|
@@ -52,7 +52,7 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 pode ser originada a partir da plataforma de serviços ou do sistema de informação da entidade parceira.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |requestNumber|string|1....1|
@@ -85,7 +85,7 @@ pode ser originada a partir da plataforma de serviços ou do sistema de informa�
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite solicitar os meios de pagamento para a tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |paymentValue|string|1....1|
@@ -118,7 +118,7 @@ Esta operação pode ser usada de forma bidirecional conforme os cenários , per
 tramitação do processo na plataforma de serviços ou no sistema de informação da entidade parceira.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |Form|ElectronicForm|1....1|
@@ -140,9 +140,8 @@ tramitação do processo na plataforma de serviços ou no sistema de informaçã
 ## Envio de meios de pagamento
 Esta operação pode ser usada de forma bidirecional conforme os cenários , permite enviar os meios de pagamento.
 
-
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |OperationVersion|string|1....1|
@@ -171,7 +170,7 @@ Para enviar uma curta comunicação a um utilizador no âmbito de um processo.
 Esta comunicação escrita não pode enviar dados do processo , apenas apelar à sua visualização no ePortugal.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |receiver|string|1....1|
@@ -195,7 +194,7 @@ Consulte a sua Área Reservada do Licenciamento Industrial, no ePortugal, para v
 solicitar o envio de um formulário no âmbito de uma alteração.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |Form|Formulário eForms|1....1|
@@ -237,7 +236,7 @@ Esta operação pode ser usada de forma bidirecional e serve para a comunicaçã
 Esta operação serve para solicitar acesso a um formulário.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |compEntityReqNumber|string|1..1|
@@ -263,7 +262,7 @@ Esta operação serve para solicitar acesso a um formulário.
 Esta operação serve para responder a um pedido de acesso a um formulário.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |compEntityReqNumber|string|1....1|
@@ -286,7 +285,7 @@ Esta operação serve para responder a um pedido de acesso a um formulário.
 Esta operação permite o envio de um pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |additionalInfoType|string|1....1|
@@ -312,7 +311,7 @@ Esta operação permite o envio de um pedido de esclarecimentos ou recolha de in
 Esta operação permite o envio de uma resposta ao pedido de esclarecimentos ou recolha de informação adicional para um determinado pedido
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |additionalInfoReplyDate|timestamp|1....1|
@@ -334,7 +333,7 @@ Esta operação permite o envio de uma resposta ao pedido de esclarecimentos ou 
 Esta operação permite o registo de uma decisão associada a um processo.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |processDecisionType|string|1....1|
@@ -356,7 +355,7 @@ Esta operação permite o registo de uma decisão associada a um processo.
 Esta operação permite o envio de dados de serviço de forma resumida.
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |processNumber|string|1....1|
@@ -396,7 +395,7 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 Esta operação permite o envio de documentos de um processo
 
 |Elemento| Tipo | Cardinalidade|
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |documentId|string|1....1|
@@ -432,8 +431,7 @@ Esta operação permite o envio de documentos de um processo
 Esta operação permite o envio de notificações de um processo
 
 |Elemento| Tipo | Cardinalidade|
-
-|------------ | ------------|
+|------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |documentId|string|1....1|
