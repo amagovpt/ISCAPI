@@ -419,7 +419,6 @@ Esta operação permite o envio de documentos de um processo
                <documentEntityCode>?</documentEntityCode>
                <documentDescription>?</documentDescription>
                <documentCreateDate>?</documentCreateDate>
-               <documentSentDate>?</documentSentDate>
             </document>
 
 </operationData>
