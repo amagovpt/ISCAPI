@@ -153,6 +153,23 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |T|Taxa de Serviço|
 
 
+##	Tipo de Documento
+
+|Id| Valor |
+|------------ | ------------|
+|1|Instrutório|
+|2|Processo|
+
+##	Tipo de Notificação
+
+|Id| Valor |
+|------------ | ------------|
+|1|Email|
+|2|SMS|
+|3|PNE|
+|4|Correio|
+
+
 
 
 ## Plataforma de Integração
