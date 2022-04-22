@@ -459,14 +459,14 @@ Esta operação permite o envio de notificações de um processo
 ```
 
 ## Tabelas de valores
-[Consultar as tabelas de valores](..\tabeladevalores)
+[Consultar as tabelas de valores](tabeladevalores)
 
 ## Plataforma de Integração
-[Consultar aqui a informação sobre a Plataforma de Integração](..\iap)
+[Consultar aqui a informação sobre a Plataforma de Integração](iap)
 
 ## Transferência de Ficheiros
-[Consultar aqui a informação sobre a transferência de ficheiros](..\largefiles)
+[Consultar aqui a informação sobre a transferência de ficheiros](largefiles)
 
 
 ## Estrutura Fixa
-[Consultar aqui a informação sobre a estrutura fixa](..\estruturafixa)
+[Consultar aqui a informação sobre a estrutura fixa](estruturafixa)
