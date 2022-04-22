@@ -389,6 +389,77 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 </operationData>
 ```
 
+
+
+## Envio de documentos de um processo
+**BETA**
+Esta operação permite o envio de documentos de um processo
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|documentId|string|1....1|
+|documentFileguid|string|1....1|
+|documentEntityCode|param|1....1|
+|documentDescription|string|1....1|
+|documentCreateDate|string|1....1|
+|documentSentDate|string|1....1|
+
+
+```markdown
+<operationData>
+  <operationCode>ISCOP016SendProcessDocuments</operationCode>
+  <operationVersion></operationVersion>
+ <document>
+               <!--Optional:-->
+               <documentId>?</documentId>
+               <documentType>?</documentType>
+               <documentFileguid>?</documentFileguid>
+               <documentClassification>?</documentClassification>
+               <documentEntityCode>?</documentEntityCode>
+               <documentDescription>?</documentDescription>
+               <documentCreateDate>?</documentCreateDate>
+               <documentSentDate>?</documentSentDate>
+            </document>
+
+</operationData>
+```
+
+
+## Envio de notificações  de um processo
+**BETA**
+Esta operação permite o envio de notificações de um processo
+
+|Elemento| Tipo | Cardinalidade|
+|------------ | ------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|documentId|string|1....1|
+|documentFileguid|string|1....1|
+|documentEntityCode|param|1....1|
+|documentDescription|string|1....1|
+|documentCreateDate|string|1....1|
+|documentSentDate|string|1....1|
+
+
+```markdown
+<operationData>
+  <operationCode>ISCOP017SendProcessNotifications</operationCode>
+  <operationVersion></operationVersion>
+  <notification>
+               <notificationId>?</notificationId>
+               <notificationFileguid>?</notificationFileguid>
+               <notificationType>?</notificationType>
+               <notificationReceiver>?</notificationReceiver>
+               <notificationSubject>?</notificationSubject>
+               <notificationDescription>?</notificationDescription>
+               <notificationCreateDate>?</notificationCreateDate>
+               <notificationSentDate>?</notificationSentDate>
+            </notification>
+</operationData>
+```
+
 ## Tabelas de valores
 [Consultar as tabelas de valores](..\tabeladevalores)
 
