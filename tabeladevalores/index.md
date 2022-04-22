@@ -41,10 +41,6 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 |4|	Cidadão| 2 com chave móvel digital 4 com cartão de cidadão|
 |6|	Notário| 4|
 
-
-## 	Tipo de Documento
-Para verificar o código associado ao tipo de documento, deverá ser acedido o serviço eletrónico do Catálogo de Entidades e Serviços - este acesso encontra-se esclarecido no documento CES-WS API
-
 ## 	Estado do processo
 
 |Id| Valor |
@@ -153,6 +149,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |T|Taxa de Serviço|
 
 
+
 ##	Tipo de Documento
 
 |Id| Valor |
@@ -161,15 +158,14 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |2|Processo|
 
 ##	Tipo de Notificação
-
 |Id| Valor |
 |------------ | ------------|
-|1|Email|
-|2|SMS|
-|3|PNE|
-|4|Correio|
-
-
+|PointOfCareType.Phone|	Telefone|
+|PointOfCareType.Fax|	Fax|
+|PointOfCareType.Email|	Correio Eletrónico|
+|PointOfCareType.Mail|	Correio Postal|
+|PointOfCareType.SMS|	SMS|
+|PointOfCareType.NotificationSystem|	Plataforma de Notificações Eletrónicas|
 
 
 ## Plataforma de Integração
