@@ -154,8 +154,20 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 |Id| Valor |
 |------------ | ------------|
-|1|Instrutório|
-|2|Processo|
+|1|Documento de decisão|
+|2|	Anexo de notificação|
+|3|Notificação|
+|4|Documento do formulário|
+|5|Documento de processo|
+|6|Documento de criação de audiência dos interessados|
+|7|Documento de pronúncia de audiência dos interessados|
+|8|Resposta requerente|
+|9|Anexo requerente|
+|10|XML declaração|
+|11|PDF declaração|
+|12|PDF da declaração auto gerada|
+|13|Documento de resposta registo de intervenções|
+
 
 ##	Tipo de Notificação
 |Id| Valor |
