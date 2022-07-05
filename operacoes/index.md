@@ -391,7 +391,7 @@ Esta operação permite o envio de dados de serviço de forma resumida.
 
 
 ## Envio de documentos de um processo
-**BETA**
+**Nova**
 Esta operação permite o envio de documentos de um processo
 
 |Elemento| Tipo | Cardinalidade|
@@ -426,7 +426,7 @@ Esta operação permite o envio de documentos de um processo
 
 
 ## Envio de notificações  de um processo
-**BETA**
+**Nova**
 Esta operação permite o envio de notificações de um processo
 
 |Elemento| Tipo | Cardinalidade|
