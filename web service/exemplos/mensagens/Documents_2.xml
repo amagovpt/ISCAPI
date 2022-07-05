@@ -1,0 +1,71 @@
+<S:Envelope xmlns:S="http://www.w3.org/2003/05/soap-envelope"><S:Body>
+       <xsd:messageRequest xmlns:xsd="http://ama.gov.pt/services/xsd" xmlns:ns3="http://www.portaldaempresa.pt/">
+          <messageData>
+             <messageEntityId>SIOE:ORG:013250000</messageEntityId>
+             <messageRelatesToEntityId>SIOE:ORG:021300000</messageRelatesToEntityId>
+             <messageDate>2022-06-23T17:03:47.958Z</messageDate>
+          </messageData>
+          <requestData>
+             <processNumber>5011</processNumber>
+             <requestNumber>165/2022</requestNumber>
+             <requestDate>2022-06-15T10:46:02.000Z</requestDate>
+             <serviceCode>CES:SRV:000007625</serviceCode>
+             <channel>PointOfCareType.Presential</channel>
+             <entityCode>SIOE:ORG:021300000</entityCode>
+             <userCode>34943</userCode>
+             <userName/>
+          </requestData>
+          <operationData>
+             <operationCode>ISCOP016SendProcessDocuments</operationCode>
+             <operationVersion/>
+             <document>
+                <documentId>23136</documentId>
+                <documentType>2</documentType>
+                <documentFileguid>cfc08723-6813-45a2-86bb-111e0b507bfa</documentFileguid>
+                <documentClassification/>
+                <documentEntityCode>SIOE:ORG:000005261</documentEntityCode>
+                <documentDescription>vazio.pdf</documentDescription>
+                <documentCreateDate>2022-46-15 10:46:28</documentCreateDate>
+             </document>
+             <document>
+                <documentId>23137</documentId>
+                <documentType>5</documentType>
+                <documentFileguid>3ea639ff-46c5-4177-a737-f91941ef1837</documentFileguid>
+                <documentClassification/>
+                <documentEntityCode>SIOE:ORG:000005261</documentEntityCode>
+                <documentDescription>doc anexado</documentDescription>
+                <documentCreateDate>2022-47-15 10:47:20</documentCreateDate>
+             </document>
+             <document>
+                <documentId>23138</documentId>
+                <documentType>1</documentType>
+                <documentFileguid>794c03f3-5c5d-47ff-8a70-6fd8c89e4840</documentFileguid>
+                <documentClassification/>
+                <documentEntityCode>SIOE:ORG:000005261</documentEntityCode>
+                <documentDescription>anexo decisao</documentDescription>
+                <documentCreateDate>2022-47-15 10:47:44</documentCreateDate>
+             </document>
+          </operationData>
+          <attachContext>
+             <TTL>0</TTL>
+             <FileGuid>cfc08723-6813-45a2-86bb-111e0b507bfa</FileGuid>
+             <fileName>1655289988495_vazio.pdf</fileName>
+             <fileType>pdf</fileType>
+             <filePath>/opt/docs/multicanal/2022/06/15/3596</filePath>
+          </attachContext>
+          <attachContext>
+             <TTL>0</TTL>
+             <FileGuid>3ea639ff-46c5-4177-a737-f91941ef1837</FileGuid>
+             <fileName>1655290040333_vazio.pdf</fileName>
+             <fileType>pdf</fileType>
+             <filePath>/opt/docs/multicanal/2022/06/15/3596</filePath>
+          </attachContext>
+          <attachContext>
+             <TTL>0</TTL>
+             <FileGuid>794c03f3-5c5d-47ff-8a70-6fd8c89e4840</FileGuid>
+             <fileName>1655290064833_vazio.pdf</fileName>
+             <fileType>pdf</fileType>
+             <filePath>/opt/docs/multicanal/2022/06/15/3596</filePath>
+          </attachContext>
+       </xsd:messageRequest>
+    </S:Body></S:Envelope>

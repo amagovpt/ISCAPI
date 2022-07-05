@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created with Liquid Studio 2019 (https://www.liquid-technologies.com) -->
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+    <soapenv:Body>
+        <xsd:messageRequest xmlns:xsd="http://ama.gov.pt/services/xsd" xmlns:ns3="http://www.portaldaempresa.pt/">
+            <messageData>
+                <messageEntityId>SIOE:ORG:013250000</messageEntityId>
+                <messageRelatesToEntityId>SIOE:ORG:021300000</messageRelatesToEntityId>
+                <messageDate>2022-06-22T15:13:04.215Z</messageDate>
+            </messageData>
+            <requestData>
+                <processNumber>5011</processNumber>
+                <requestNumber>165/2022</requestNumber>
+                <requestDate>2022-06-15T10:46:02.000Z</requestDate>
+                <serviceCode>CES:SRV:000007625</serviceCode>
+                <channel>PointOfCareType.Presential</channel>
+                <entityCode>SIOE:ORG:021300000</entityCode>
+                <userCode>34943</userCode>
+                <userName/>
+            </requestData>
+            <operationData>
+                <operationCode>ISCOP017SendProcessNotifications</operationCode>
+                <operationVersion/>
+                <notification>
+                    <notificationId>9813</notificationId>
+                    <notificationFileguid>09310b95-f3b9-4e99-b588-25d4e94a20c8</notificationFileguid>
+                    <notificationType>PointOfCareType.Email</notificationType>
+                    <notificationReceiver>teste@teste.pt</notificationReceiver>
+                    <notificationSubject>DRNC – Processo n.º 5011 - Pedido n.º 165/2022</notificationSubject>
+                    <notificationDescription>Taxa BO</notificationDescription>
+                    <notificationCreateDate>15-06-2022 10:45:26</notificationCreateDate>
+                    <notificationSentDate>15-06-2022 10:45:26</notificationSentDate>
+                </notification>
+                <notification>
+                    <notificationId>9814</notificationId>
+                    <notificationFileguid>4aa4b60a-7111-4361-bc1a-f1ec38bcd119</notificationFileguid>
+                    <notificationType>1</notificationType>
+                    <notificationReceiver>teste@teste.pt</notificationReceiver>
+                    <notificationSubject>Atribuição de taxa - 5011 - 165/2022</notificationSubject>
+                    <notificationDescription>MCP taxa BO 5 dias</notificationDescription>
+                    <notificationCreateDate>15-06-2022 10:45:26</notificationCreateDate>
+                    <notificationSentDate>15-06-2022 10:45:26</notificationSentDate>
+                </notification>
+                <notification>
+                    <notificationId>9815</notificationId>
+                    <notificationFileguid>e74d332d-d07a-4211-af92-7b9b0c72008e</notificationFileguid>
+                    <notificationType>PointOfCareType.Email</notificationType>
+                    <notificationReceiver>teste@teste.pt</notificationReceiver>
+                    <notificationSubject>DRNC – Processo n.º 5011 - Pedido n.º 165/2022 recebido</notificationSubject>
+                    <notificationDescription>MCP Gratuita submetida</notificationDescription>
+                    <notificationCreateDate>15-06-2022 10:46:02</notificationCreateDate>
+                    <notificationSentDate>15-06-2022 10:46:02</notificationSentDate>
+                </notification>
+                <notification>
+                    <notificationId>9816</notificationId>
+                    <notificationFileguid>efd27e00-2f0c-4e3a-836a-77eb08227e96</notificationFileguid>
+                    <notificationType>PointOfCareType.Email</notificationType>
+                    <notificationReceiver>teste@teste.pt</notificationReceiver>
+                    <notificationSubject>5011 - 165/2022</notificationSubject>
+                    <notificationDescription>Submissão autorização</notificationDescription>
+                    <notificationCreateDate>15-06-2022 10:46:02</notificationCreateDate>
+                    <notificationSentDate>15-06-2022 10:46:02</notificationSentDate>
+                </notification>
+                <notification>
+                    <notificationId>9817</notificationId>
+                    <notificationFileguid>5f13dcaa-8339-45cf-a2e8-39248b12dea8</notificationFileguid>
+                    <notificationType>PointOfCareType.Email</notificationType>
+                    <notificationReceiver>teste@teste.pt</notificationReceiver>
+                    <notificationSubject>not livre com anexo</notificationSubject>
+                    <notificationDescription>Notificação livre</notificationDescription>
+                    <notificationCreateDate>15-06-2022 10:46:28</notificationCreateDate>
+                    <notificationSentDate>15-06-2022 10:46:28</notificationSentDate>
+                </notification>
+                <notification>
+                    <notificationId>9818</notificationId>
+                    <notificationFileguid>92d8a161-4859-4482-ad92-81ae8854b78c</notificationFileguid>
+                    <notificationType>PointOfCareType.Email</notificationType>
+                    <notificationSubject>DRNC  – Decisão do processo n.º 5011 e pedido n.º 165/2022</notificationSubject>
+                    <notificationDescription>Decisão emitida taxa automática</notificationDescription>
+                    <notificationCreateDate>15-06-2022 10:47:45</notificationCreateDate>
+                    <notificationSentDate>15-06-2022 10:47:45</notificationSentDate>
+                </notification>
+            </operationData>
+        </xsd:messageRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
