@@ -170,6 +170,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 
 ##	Tipo de Notificação
+
 |Id| Valor |
 |------------ | ------------|
 |PointOfCareType.Phone|	Telefone|
