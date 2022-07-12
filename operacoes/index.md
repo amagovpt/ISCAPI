@@ -400,11 +400,10 @@ Esta operação permite o envio de documentos de um processo
 |OperationVersion|string|1....1|
 |documentId|string|1....1|
 |documentFileguid|string|1....1|
+|documentClassification|string|1....1|
 |documentEntityCode|param|1....1|
 |documentDescription|string|1....1|
 |documentCreateDate|string|1....1|
-|documentSentDate|string|1....1|
-
 
 ```markdown
 <operationData>
@@ -433,12 +432,13 @@ Esta operação permite o envio de notificações de um processo
 |------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
-|documentId|string|1....1|
-|documentFileguid|string|1....1|
-|documentEntityCode|param|1....1|
-|documentDescription|string|1....1|
-|documentCreateDate|string|1....1|
-|documentSentDate|string|1....1|
+|notificationType|string|1....1|
+|notificationReceiver|string|1....1|
+|notificationSubject|string|1....1|
+|notificationEntityCode|param|1....1|
+|notificationDescription|string|1....1|
+|notificationCreateDate|string|1....1|
+|notificationSentDate|string|1....1|
 
 ```markdown
 <operationData>
