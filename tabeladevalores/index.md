@@ -18,6 +18,8 @@ A ISCAPI (Integração de Serviços Comuns API) é uma camada de integração, q
 |4|	Cheque|
 |5|	Transferência Bancária|
 |6|	Anulação Manual|
+|7|	Documento Único de Cobrança- DUC|
+
 
 
 
