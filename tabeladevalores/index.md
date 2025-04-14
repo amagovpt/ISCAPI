@@ -42,32 +42,35 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 |000000014|	Advogado|  4|
 |000000015|	Solicitador|4|
 |000000016|	Notário| 4|
-|00000010|	Eidas |   |
+|00000010|	Eidas | Não se aplica  |
 |000000200|	CMD Estrangeiro |  2|
 
 ## 	Estado do processo
 
 |Id| Valor |
 |------------ | ------------|
-|1|	Processo em elaboração|
+|1|	Pedido em elaboração|
 |2|	Aguarda emissão de pagamento|
-|3|	Aguarda pagamento|
+|3|	Aguarda pagamento da taxa administrativa|
 |4|	Aguarda atribuição de taxa|
 |5|	Pagamento liquidado|
 |6|	Cancelado|
-|7|	Processo arquivado|
+|7|	Pedido arquivado|
 |8|	Aguarda análise|
 |9|	Em análise|
-|10|Aguarda esclarecimentos|
-|11|	Aguarda audiência dos interessados|
-|12	|Aguarda pagamento da taxa de decisão|
-|13	|Processo decidido|
-|14	|Processo submetido à entidade competente|
-|15	|Pagamento da taxa de decisão liquidado|
-|16|Processo migrado|
-|19	|Suspenso|
-|20	|Aguarda introdução de token|
-|21	|Pagamento fora do prazo|
+|10| Aguarda esclarecimentos|
+|11| Aguarda audiência dos interessados|
+|12| Aguarda pagamento da taxa|
+|13| Pedido decidido|
+|14| Processo submetido à entidade competente|
+|15| Pagamento da taxa de decisão liquidado|
+|16| Pedido migrado|
+|19| Suspenso|
+|20| Aguarda introdução de token|
+|21| Pagamento fora do prazo|
+|22| Deserto|
+|25| Aguarda parecer da entidade visada|
+|26| Aguarda evidências|
 
 ## 	Canais
 
