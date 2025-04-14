@@ -76,14 +76,15 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 
 |Id| Valor |
 |------------ | ------------|
-|PointOfCareType.Presential|Presencial|
+|PointOfCareType.Web|	Online|
+|PointOfCareType.Presential|	Presencial|
+|--	| Posto Pagamento|
 |PointOfCareType.Phone|	Telefone|
-|PointOfCareType.Fax|	Fax|
+|PointOfCareType.Fax| 	Fax|
 |PointOfCareType.Email|	Correio Eletrónico|
 |PointOfCareType.Mail|	Correio Postal|
-|PointOfCareType.Web|	Aplicação Web|
 |PointOfCareType.MobileApp|	Aplicação Móvel|
-|PointOfCareType.SocialNetwork|	Rede Social|
+|PointOfCareType.SocialNetwork| 	Rede Social|
 
 ## 	Local\Ponto de Atendimento
 Código identificador do Ponto de Atendimento no Catálogo de Entidades e Serviços.
