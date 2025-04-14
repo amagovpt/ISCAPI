@@ -32,7 +32,7 @@ A ISCAPI (Integração de Serviços Comuns API) é uma camada de integração, q
 |T|	2º Pagamento|
 
 ## 	Entidades
-Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http://www.sioe.dgaep.gov.pt/Default.aspx.
+Para verificar o código de (uma) entidade(s), deverá aceder ao CES, em https://ces.ama.gov.pt/org.
 
 ## 	Tipos de Utilizador
 
