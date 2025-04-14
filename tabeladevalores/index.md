@@ -74,17 +74,18 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 
 ## 	Canais
 
-|Id| Valor |
-|------------ | ------------|
-|PointOfCareType.Web|	Online|
-|PointOfCareType.Presential|	Presencial|
-|--	| Posto Pagamento|
-|PointOfCareType.Phone|	Telefone|
-|PointOfCareType.Fax| 	Fax|
-|PointOfCareType.Email|	Correio Eletrónico|
-|PointOfCareType.Mail|	Correio Postal|
-|PointOfCareType.MobileApp|	Aplicação Móvel|
-|PointOfCareType.SocialNetwork| 	Rede Social|
+|Id| ISCAPI_NAME| Valor|
+|------------|------------ | ------------|
+|1|PointOfCareType.Web|	Online|
+|2|PointOfCareType.Presential|	Presencial|
+|3|--	| Posto Pagamento|
+|4|PointOfCareType.Phone|	Telefone|
+|5|PointOfCareType.Fax| 	Fax|
+|6|PointOfCareType.Email|	Correio Eletrónico|
+|7|PointOfCareType.Mail|	Correio Postal|
+|8|PointOfCareType.MobileApp|	Aplicação Móvel|
+|9|PointOfCareType.SocialNetwork| 	Rede Social|
+
 
 ## 	Local\Ponto de Atendimento
 Código identificador do Ponto de Atendimento no Catálogo de Entidades e Serviços.
