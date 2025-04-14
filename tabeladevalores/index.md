@@ -1,5 +1,5 @@
 ﻿# Integração de Serviços Comuns
-A ISCAPI (Integração de Serviços Comuns API) é uma camada de integração, que disponibiliza um conjunto de operações com o objetivo de agilizar todos os processos de integração de sistemas externos à Plataforma de Serviços do [ePortugal](https://ePortugal.gov.pt).
+A ISCAPI (Integração de Serviços Comuns API) é uma camada de integração, que disponibiliza um conjunto de operações com o objetivo de agilizar todos os processos de integração de sistemas externos à Plataforma de Serviços do [gov.pt](https://www.gov.pt/).
 
 - [Regressar ao ecrã inicial](../)
 
@@ -16,9 +16,9 @@ A ISCAPI (Integração de Serviços Comuns API) é uma camada de integração, q
 |2|	Cartão de Crédito|
 |3|	Numerário|
 |4|	Cheque|
-|5|	Transferência Bancária|
-|6|	Anulação Manual|
-|7|	Documento Único de Cobrança- DUC|
+|6|	Outros|
+|7|	Transferência Bancária|
+|8|	Documento Único de Cobrança- DUC|
 
 
 
@@ -38,10 +38,12 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 
 |Id| Valor | Nível Confiança |
 |------------ | ------------| ------------|
-|1|	Advogado|  4 |
-|2|	Solicitador|4 |
-|4|	Cidadão| 2 com chave móvel digital 4 com cartão de cidadão|
-|6|	Notário| 4|
+|000000001|	CC / CMD Nacional| 2|
+|000000014|	Advogado|  4|
+|000000015|	Solicitador|4|
+|000000016|	Notário| 4|
+|00000010|	Eidas |   |
+|000000200|	CMD Estrangeiro |  2|
 
 ## 	Estado do processo
 
