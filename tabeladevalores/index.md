@@ -36,14 +36,14 @@ Para verificar o código de (uma) entidade(s), deverá aceder ao SIOE, em http:/
 
 ## 	Tipos de Utilizador
 
-|Id| Valor | Nível Confiança |
-|------------ | ------------| ------------|
-|000000001|	CC / CMD Nacional| 2|
-|000000014|	Advogado|  4|
-|000000015|	Solicitador|4|
-|000000016|	Notário| 4|
-|00000010|	Eidas | Não se aplica  |
-|000000200|	CMD Estrangeiro |  2|
+|Id| Valor | 
+|------------ | ------------|
+|000000001|	CC / CMD Nacional| 
+|000000014|	Advogado|  
+|000000015|	Solicitador|
+|000000016|	Notário| 
+|00000010|	Eidas | 
+|000000200|	CMD Estrangeiro | 
 
 ## 	Estado do processo
 
