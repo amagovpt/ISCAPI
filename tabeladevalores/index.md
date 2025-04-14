@@ -175,7 +175,11 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |11|PDF declaração|
 |12|PDF da declaração auto gerada|
 |13|Documento de resposta registo de intervenções|
-
+|14|	Documento de evidência|
+|15|	Comprovante Notif - SPNE|
+|16|	Anexo do parecer do processo|
+|17|	Documento de OOTS|
+|18|JSON Declaração|
 
 ##	Tipo de Notificação
 
