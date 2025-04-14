@@ -185,11 +185,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 
 |Id| Valor |
 |------------ | ------------|
-|PointOfCareType.Phone|	Telefone|
-|PointOfCareType.Fax|	Fax|
 |PointOfCareType.Email|	Correio Eletrónico|
-|PointOfCareType.Mail|	Correio Postal|
-|PointOfCareType.SMS|	SMS|
 |PointOfCareType.NotificationSystem|	Plataforma de Notificações Eletrónicas|
 
 
