@@ -473,6 +473,79 @@ Esta operação permite o envio de notificações de um processo para o sistema 
 </operationData>
 ```
 
+## Criação de audiência dos interessados
+**Nova**
+Esta operação permite criar o registo de audiência dos interessados num processo na plataforma de serviços.
+
+|Elemento| Tipo | Cardinalidade|
+|------------|------------|------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+
+
+```markdown
+<operationData>
+  <operationCode>ISCOP018StakeHolderRequest</operationCode>
+  <operationVersion>0</operationVersion>
+  <stakeHolderEventType>?</stakeHolderEventType>
+  <stakeHolderReason>?</stakeHolderReason>
+  <stakeHolderApplicantMessage>?</stakeHolderApplicantMessage>
+  <!--Optional:-->
+  <stakeHolderDocuments>
+    <!--Zero or more repetitions:-->
+    <stakeHolderDocument></stakeHolderDocument>
+ </stakeHolderDocuments>
+ <stakeHolders>
+    <!--Zero or more repetitions:-->
+   <stakeHolder>
+    <!--Optional:-->
+    <stakeHolderNotes></stakeHolderNotes>
+    <stakeHolderType></stakeHolderType>
+    <stakeHolderDate></stakeHolderDate>
+    <stakeHolderName></stakeHolderName>
+    <stakeHolderDeadline></stakeHolderDeadline>
+    <stakeHolderEmail></stakeHolderEmail>
+    <stakeHolderAddress></stakeHolderAddress>
+    <stakeHolderPostalCode></stakeHolderPostalCode>
+    <stakeHolderLocality></stakeHolderLocality>
+   </stakeHolder>
+ </stakeHolders>
+</operationData>
+```
+
+## Resposta à audiência dos interessados
+**Nova**
+Esta operação permite à plataforma de serviços enviar a resposta ao pedido de audiência dos interessados à entidade parceira.
+
+Pressupostos: esta operação só pode ser utilizada caso já tenha sido recebida uma ISCOP018StakeHolderRequest.
+
+
+## Envio de parecer
+**Nova**
+Esta operação permite que a entidade parceira envie um parecer sobre um processo.
+
+|Elemento| Tipo | Cardinalidade|
+|------------|------------|------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|statementDate|timestamp|1....1|
+|statementReason|string|1....1|
+|statementResponse|boolean|true....false|
+
+```markdown
+<operationData>
+  <operationCode>ISCOP020SendOpinion</operationCode>
+  <operationVersion>0</operationVersion>
+  <statementDate>?</statementDate>
+  <statementReason>?</statementReason>
+  <statementResponse>?</statementResponse>
+  <!--Zero or more repetitions:-->
+  <statementDocuments>
+    <opinionDocument></opinionDocument>
+ </statementDocuments>
+</operationData>
+```
+
 ## Tabelas de valores
 [Consultar as tabelas de valores](..\tabeladevalores)
 
