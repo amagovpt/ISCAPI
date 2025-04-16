@@ -528,13 +528,14 @@ Pressupostos: esta operação só pode ser utilizada caso já tenha sido recebid
 
 ```markdown
 <operationData>
-  <operationCode>ISCOP019</operationCode>
+  <operationCode>ISCOP019StakeholderReply</operationCode>
   <operationVersion>0</operationVersion>
   <stakeholderConclusion>?</stakeholderConclusion>
   <!--Zero or more repetitions:-->
   <stakeholderFinalObservation>?</stakeholderFinalObservation>
- </operationData>
+</operationData>
 ```
+
 
 ## Envio de parecer
 **Nova**
