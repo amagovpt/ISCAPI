@@ -481,6 +481,22 @@ Esta operação permite criar o registo de audiência dos interessados num proce
 |------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
+|stakeHolderEventType|||
+|stakeHolderReason|||
+|stakeHolderApplicantMessage|||
+|stakeHolderDocuments|||
+|stakeHolderDocument|||
+|stakeHolders|||
+|stakeHolder|||
+|stakeHolderNotes|||
+|stakeHolderType|||
+|stakeHolderDate|||
+|stakeHolderName|||
+|stakeHolderDeadline|||
+|stakeHolderEmail|||
+|stakeHolderAddress|||
+|stakeHolderPostalCode|||
+|stakeHolderLocality|||
 
 
 ```markdown
