@@ -519,6 +519,22 @@ Esta operação permite à plataforma de serviços enviar a resposta ao pedido d
 
 Pressupostos: esta operação só pode ser utilizada caso já tenha sido recebida uma ISCOP018StakeHolderRequest.
 
+|Elemento| Tipo | Cardinalidade|
+|------------|------------|------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|stakeholderConclusion|boolean|true....false|
+|stakeholderFinalObservation|string|1....1|
+
+```markdown
+<operationData>
+  <operationCode>ISCOP019</operationCode>
+  <operationVersion>0</operationVersion>
+  <stakeholderConclusion>?</stakeholderConclusion>
+  <!--Zero or more repetitions:-->
+  <stakeholderFinalObservation>?</stakeholderFinalObservation>
+ </operationData>
+```
 
 ## Envio de parecer
 **Nova**
