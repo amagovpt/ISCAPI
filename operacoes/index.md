@@ -23,6 +23,65 @@ O formulário submetido na plataforma de serviços da AMA é enviado através de
 </operationData>
 ```
 
+## Envio de formulário v2
+
+Submissão JSON via eforms1
+
+|Elemento| Tipo | Cardinalidade|
+|------------|------------|------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|FormJson|Formulário eForms|1....1|
+
+```markdown
+<operationData>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion>2</operationVersion>
+  <FormJson>
+    <content>
+      {
+        "Form": {...}
+      }
+    </content>
+  </FormJson>
+</operationData>
+```
+
+## Envio de formulário v3
+
+Submissão JSON via eforms3
+
+|Elemento| Tipo | Cardinalidade|
+|------------|------------|------------|
+|OperationCode|string|1....1|
+|OperationVersion|string|1....1|
+|FormJson|Formulário eForms|1....1|
+
+```markdown
+<operationData>
+  <operationCode>ISCOP001SendForm</operationCode>
+  <operationVersion>3</operationVersion>
+  <FormJson>
+    <content>
+		  {
+			  "pattern": "subject",
+			  "data": {
+				  "formData": {
+					  ...
+				  },
+				  "auth": {
+					  ...
+				  },
+				  "dataEnvio": "2025-05-21T10:54:12.780Z",
+				  "formId": "d7b6ac44-d5a2-47b8-afb1-67cbc8f0792"
+			  }
+		  }
+    </content>
+  </FormJson>
+</operationData>
+```
+
+
 ## Alteração de estado
 Esta operação pode ser usada de forma bidirecional conforme os cenários, permite comunicar uma alteração de estado e
 pode ser originada a partir da plataforma de serviços ou do sistema de informação da entidade parceira.
