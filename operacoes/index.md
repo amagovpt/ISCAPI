@@ -541,50 +541,33 @@ Esta operação permite criar o registo de audiência dos interessados num proce
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
 |stakeHolderEventType|string|1....1|
+|stakeholderDecisionIntent|long|1....1|
 |stakeHolderReason|string|1....1|
 |stakeHolderApplicantMessage|string|1....N|
-|stakeHolderDocuments|string|1....1|
-|stakeHolderDocument|string|1....1|
-|stakeHolders|string|1....1|
-|stakeHolder|string|1....1|
 |stakeHolderNotes|string|1....N|
-|stakeHolderType|string|1....1|
-|stakeHolderDate|timestamp|1....1|
-|stakeHolderName|string|1....1|
-|stakeHolderDeadline|string|1....1|
-|stakeHolderEmail|string|1....N|
 |stakeHolderAddress|string|1....N|
-|stakeHolderPostalCode|string|1....N|
-|stakeHolderLocality|string|1....N|
-
+|stakeholderZipCode|string|1....N|
+|stakeHolderPostalArea|string|1....N|
+|stakeHolderHearingTime|timestamp|1....1|
+|stakeHolderWrittenEmail|string|1....N|
+|stakeHolderOralAditionalNotes|string|1....1|
 
 ```markdown
 <operationData>
   <operationCode>ISCOP018StakeHolderRequest</operationCode>
   <operationVersion>0</operationVersion>
-  <stakeHolderEventType>?</stakeHolderEventType>
-  <stakeHolderReason>?</stakeHolderReason>
-  <stakeHolderApplicantMessage>?</stakeHolderApplicantMessage>
-  <!--Optional:-->
-  <stakeHolderDocuments>
-    <!--Zero or more repetitions:-->
-    <stakeHolderDocument></stakeHolderDocument>
- </stakeHolderDocuments>
- <stakeHolders>
-    <!--Zero or more repetitions:-->
-   <stakeHolder>
-    <!--Optional:-->
-    <stakeHolderNotes></stakeHolderNotes>
-    <stakeHolderType></stakeHolderType>
-    <stakeHolderDate></stakeHolderDate>
-    <stakeHolderName></stakeHolderName>
-    <stakeHolderDeadline></stakeHolderDeadline>
-    <stakeHolderEmail></stakeHolderEmail>
-    <stakeHolderAddress></stakeHolderAddress>
-    <stakeHolderPostalCode></stakeHolderPostalCode>
-    <stakeHolderLocality></stakeHolderLocality>
-   </stakeHolder>
- </stakeHolders>
+  <stakeholderEventType></stakeholderEventType>
+  <stakeholderDecisionIntent></stakeholderDecisionIntent>
+  <stakeholderReason></stakeholderReason>
+  <stakeholderApplicantMessage></stakeholderApplicantMessage>
+  <stakeholderNotes></stakeholderNotes>
+  
+  <stakeholderAddress></stakeholderAddress>
+  <stakeholderZipCode></stakeholderZipCode>
+  <stakeholderPostalArea></stakeholderPostalArea>
+  <stakeholderHearingTime></stakeholderHearingTime>
+  <stakeHolderWrittenEmail></stakeHolderWrittenEmail>
+  <stakeholderOralAditionalNotes></stakeholderOralAditionalNotes>
 </operationData>
 ```
 
@@ -598,16 +581,13 @@ Pressupostos: esta operação só pode ser utilizada caso já tenha sido recebid
 |------------|------------|------------|
 |OperationCode|string|1....1|
 |OperationVersion|string|1....1|
-|stakeholderConclusion|boolean|true....false|
-|stakeholderFinalObservation|string|1....1|
+|stakeholderResponse|string|1....1|
 
 ```markdown
 <operationData>
   <operationCode>ISCOP019StakeholderReply</operationCode>
-  <operationVersion>0</operationVersion>
-  <stakeholderConclusion>?</stakeholderConclusion>
-  <!--Zero or more repetitions:-->
-  <stakeholderFinalObservation>?</stakeholderFinalObservation>
+  <operationVersion></operationVersion>
+  <stakeholderResponse></stakeholderResponse>   
 </operationData>
 ```
 
