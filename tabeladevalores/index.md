@@ -115,7 +115,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 ## 	Códigos de erro (ISC 12)
 
 |Código de Erro| Contexto | Mensagem de Erro |
-|------------ | ------------|
+|------------ | ------------ | ------------|
 |I_E|[MessageRequest]|Internal Error|
 |MD_01|[MessageData]|Missing messageEntityId|
 |MD_02|[MessageData]|Missing messageRelatesToEntityId|
