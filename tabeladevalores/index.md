@@ -113,6 +113,7 @@ Código identificador do Ponto de Atendimento no Catálogo de Entidades e Servi�
 |500|	Erro Inesperado|
 
 ## 	Códigos de erro (ISC 12)
+
 |Código de Erro| Mensagem |
 |------------ | ------------|
 |I_E|Internal Error|
